@@ -54,6 +54,7 @@ const icons = {
   task: `<path d="M9.99992 2.0835V17.9168M7.08325 3.75016H2.08325V16.2502H7.08325M12.9166 16.2502H17.9166V3.75016H12.9166" stroke="currentColor" stroke-linecap="square"/>`,
   subagent: `<path d="M4.5 5C4.5 4.72386 4.72386 4.5 5 4.5H11C11.2761 4.5 11.5 4.72386 11.5 5V11C11.5 11.2761 11.2761 11.5 11 11.5H5C4.72386 11.5 4.5 11.2761 4.5 11V5Z" fill="currentColor"/><path d="M13.5 2C13.7761 2 14 2.22386 14 2.5V13.5C14 13.7761 13.7761 14 13.5 14H2.5C2.22386 14 2 13.7761 2 13.5V2.5C2 2.22386 2.22386 2 2.5 2H13.5ZM3 13H13V3H3V13Z" fill="currentColor"/>`,
   stop: `<rect x="5" y="5" width="10" height="10" fill="currentColor"/>`,
+  microphone: `<path d="M10 2.5C8.619 2.5 7.5 3.619 7.5 5V10C7.5 11.381 8.619 12.5 10 12.5C11.381 12.5 12.5 11.381 12.5 10V5C12.5 3.619 11.381 2.5 10 2.5ZM4.5 9.5V10C4.5 13.038 6.962 15.5 10 15.5C13.038 15.5 15.5 13.038 15.5 10V9.5M10 15.5V17.5" stroke="currentColor" stroke-linecap="square"/>`,
   status: `<path d="M2 10V18H18V10M2 10V2H18V10M2 10H18M5 6H9M5 14H9" stroke="currentColor"/>`,
   "status-active": `<path d="M18 2H2V10H18V2Z" fill="currentColor" fill-opacity="0.1"/>
 <path d="M2 18H18V10H2V18Z" fill="currentColor" fill-opacity="0.1"/>

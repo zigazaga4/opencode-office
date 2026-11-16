@@ -22,6 +22,7 @@ import type {
   PromptInputV2Suggestion,
 } from "./types"
 import type { PromptInputV2Interaction, PromptInputV2SelectControl } from "./interaction"
+import { PromptInputV2DictationButton } from "./dictation-button"
 import "./attachments.css"
 
 export type {
@@ -254,6 +255,10 @@ export function PromptInputV2(props: PromptInputV2Props) {
               )}
             </Show>
           </div>
+          <PromptInputV2DictationButton
+            editor={() => editor}
+            disabled={props.disabled || props.readOnly || state.mode === "shell"}
+          />
           <PromptInputV2SubmitButton
             mode={state.mode}
             stopping={view.submit.stopping()}

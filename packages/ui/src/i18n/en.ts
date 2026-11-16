@@ -138,6 +138,15 @@ export const dict: Record<string, string> = {
   "ui.promptInput.chooseVariant": "Choose model variant",
   "ui.promptInput.send": "Send",
   "ui.promptInput.stop": "Stop",
+  "ui.promptInput.dictate": "Dictate",
+  "ui.promptInput.dictateStop": "Stop dictation",
+  "ui.promptInput.dictateLanguage": "Dictation language: {{language}} (click to change)",
+  "ui.promptInput.dictateListening": "Listening…",
+  "ui.promptInput.dictateError.notAllowed": "Microphone not allowed. Allow it from the browser's address bar.",
+  "ui.promptInput.dictateError.serviceNotAllowed": "The browser does not allow dictation on this address.",
+  "ui.promptInput.dictateError.audioCapture": "No microphone found.",
+  "ui.promptInput.dictateError.languageNotSupported": "This language is not supported by the browser.",
+  "ui.promptInput.dictateError.network": "The speech service is not responding. Check your internet connection.",
 
   "ui.tabs.close": "Close tab",
 
